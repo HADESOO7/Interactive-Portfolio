@@ -69,7 +69,7 @@ To run this project locally on your machine, follow these simple steps.
 
 1.  **Clone the repository**
     ```sh
-    git clone [https://github.com/HADESOO7/Portfolio.git](https://github.com/HADESOO7/Portfolio.git)
+   git clone https://github.com/HADESOO7/Portfolio.git
     ```
 2.  **Navigate to the project directory**
     ```sh
