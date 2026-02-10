@@ -9,7 +9,7 @@ A premium, high-performance personal portfolio website featuring a <br>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 </p>
 
-### <a href="portfoliobanaya.netlify.app">View Live Demo 🚀</a>
+### <a href="https://portfoliobanaya.netlify.app/">View Live Demo 🚀</a>
 
 <br />
 
