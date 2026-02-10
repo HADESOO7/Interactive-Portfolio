@@ -83,24 +83,27 @@ To run this project locally on your machine, follow these simple steps.
 A look at the CSS logic for the expanding "Social Pills" animation:
 
 ```css
-/* Expanding Social Pill Animation */
+/* --- SOCIAL PILLS (Expanding on Hover) --- */
+.social-links-expandable {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
 .social-pill {
-    width: 50px; 
-    height: 50px;
+    display: flex; align-items: center; justify-content: center;
+    width: 50px; height: 50px;
     border-radius: 50px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--panel-border);
+    color: var(--text-primary);
+    text-decoration: none;
+    font-size: 1.3rem;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     overflow: hidden;
-}
-
-.social-pill:hover {
-    width: auto; 
-    padding: 0 25px; 
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-/* Specific Brand Gradient on Hover */
-.social-pill.instagram:hover {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    border: none;
+    position: relative;
+    backdrop-filter: blur(5px);
+    cursor: pointer; 
 }
