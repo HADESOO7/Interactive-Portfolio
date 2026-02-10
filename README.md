@@ -36,7 +36,7 @@ The design philosophy focuses on **"Digital Reality"**—blending depth, blur, a
 ## 📸 Interface Preview
 
 <div align="center"> 
-  <img src="screenshot.png" alt="Portfolio Dark Mode" width="800" />
+  <img src="Screenshot (68).png" alt="Portfolio Dark Mode" width="800" />
 </div>
 
 > *The interface features a Glassmorphism-inspired "Tahoe" aesthetic with expanding social pills and neon-accented controls.*
